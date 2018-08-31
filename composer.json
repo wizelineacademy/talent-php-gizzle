@@ -6,7 +6,9 @@
             "email": "felipegaiacharly@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "nesbot/carbon": "^1.33"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
