@@ -5,14 +5,12 @@ namespace App;
 use Carbon\Carbon;
 
 class Event extends Model{
-    public $title;
 
-    protected $date;
-
-    function __construct($title) {
-        $this->title = $title;
-    }
-
+    protected static $fillable = [
+        'date',
+        'title'
+    ];
+    
     /**
      * @param string $date Y-m-d
      */
