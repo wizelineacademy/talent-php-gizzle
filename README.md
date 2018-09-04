@@ -6,7 +6,7 @@
 docker-compose up
 ```
 
-## Use Composer into the Container
+## Use Composer inside the Container
 
 ```
 docker exec -it [container-name] bash
